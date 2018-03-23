@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Tarea2.jnlp">
+  <information>
+    <title>Tarea2</title>
+    <vendor>Nicole</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Tarea2.jar" size="7472" download="eager" />
+    <jar href="lib\commons-codec-1.11.jar" size="335042" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Tarea2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="tarea2.Tarea2"  name="Tarea2" />
+  <update check="always"/>
+</jnlp>
